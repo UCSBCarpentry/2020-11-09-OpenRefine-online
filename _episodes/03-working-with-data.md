@@ -138,3 +138,16 @@ Splitting on a comma will not work with Authors because the names may include co
 > > * In the prompt type the ( \| ) symbol and click 'OK'
 > {: .solution}
 {: .challenge}
+
+## Inspecting a larger dataset
+
+Our sample dataset is small enough that we can see trends directly. It's important
+to get comfortable using larger datasets so that you learn to trust your tools and
+your ability to evaluate a dataset.
+
+* Download 
+[this dataset](https://drive.google.com/file/d/1NuD49fcXdzpvLRfDDa23nq6y9lb7t8KY/view?usp=sharing), 
+and put the .csv file alongside your other data file.
+* Return to the 'Create Project' menu.
+* 'Choose Files' and navigate to the journalcsv__doaj_20201027_1636_utf8.csv file.
+* Use the default options to create a new project.
