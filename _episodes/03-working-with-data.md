@@ -152,3 +152,4 @@ and put the .csv file alongside your other data file.
 * Return to the 'Create Project' menu.
 * 'Choose Files' and navigate to the journalcsv__doaj_20201027_1636_utf8.csv file.
 * Use the default options to create a new project.
+* Rename this new project 'Large DOAJ dump.'
