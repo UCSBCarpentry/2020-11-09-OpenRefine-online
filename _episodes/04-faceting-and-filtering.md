@@ -121,15 +121,15 @@ The list of values in the facet will update as you make edits.
 
 >## Inspecting your new dataset
 > 
->* Open your 'Large DOAJ dump' project.
->** How many records are in the dataset?
->** How many columns are in the dataset?
->** Does your computer display non-Latin character sets? (hint: sort by title)
->** What is the most common amount for an Author Publishing Charge?
->** Where does 'most recent article' time come from? a robot?"
+>* Answer the following questions about your new, larger, dataset:
+>* How many records are in the dataset?
+>* How many columns are in the dataset?
+>* Does your computer display non-Latin character sets? (hint: sort by title)
+>* What is the most common amount for an Author Publishing Charge?
+>* Where does 'most recent article' time come from? a robot?"
 >
 >>## Solution
->> 1.
+>> 1. Open your 'Large DOAJ dump' project
 >> 2.
 >{: .solution}
 {: .challenge}
