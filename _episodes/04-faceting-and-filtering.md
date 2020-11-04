@@ -130,6 +130,10 @@ The list of values in the facet will update as you make edits.
 >
 >>## Solution
 >> 1. Open your 'Large DOAJ dump' project
->> 2.
+>> 2. The number of records is displayed prominently on the project's main screen
+>>  ![Number of records](../assets/img/num-records.png)
+>> 3. **I actually don't know how to figure out how many columns**
+>> 4. If you sort your records by title, then go to the LAST page of records, you will either see non-Latin characters or some random nonsense.
+>> 5. Create a text facet, then sort by count. 
 >{: .solution}
 {: .challenge}
