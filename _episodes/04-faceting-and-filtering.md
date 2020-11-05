@@ -121,7 +121,7 @@ The list of values in the facet will update as you make edits.
 
 >## Inspecting your new dataset
 > 
->* Answer the following questions about your new, larger, dataset:
+> Answer the following questions about your new, larger, dataset:
 >* How many records are in the dataset?
 >* How many columns are in the dataset?
 >* Does your computer display non-Latin character sets? (hint: sort by title)
@@ -134,6 +134,6 @@ The list of values in the facet will update as you make edits.
 >>  ![Number of records](../assets/img/num-records.png)
 >> 3. **I actually don't know how to figure out how many columns**
 >> 4. If you sort your records by title, then go to the LAST page of records, you will either see non-Latin characters or some random nonsense.
->> 5. Create a text facet, then sort by count. 
+>> 5. Create a text facet, then sort by count. The most common APC amount is 1000. But 1000 what?
 >{: .solution}
 {: .challenge}
