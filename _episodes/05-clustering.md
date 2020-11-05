@@ -35,3 +35,27 @@ For each cluster, you have the option of 'merging' the values together - that is
 >3. Using the `key collision` method with the `fingerprint` Keying Function, work through the clusters of values, merging them to a single value where appropriate
 >4. Try changing the clustering method being used - which ones work well?
 {: .challenge}
+
+>## Challenge: Clean up 2 variables
+>
+> Let's clean up our new, larger DOAJ file.
+> There are several publishers that appear to be the same organization. Combine them.
+> > How many publishers did you start with? How many are left after cleaning?
+> You can also eliminate redundant values in the 'Permanent article identifiers' column.
+>
+> > ## Solution
+> >
+> > ### Combine publishers.
+> > When you start, you should see 
+> >
+> > ~~~
+> > it may also include some code
+> > ~~~
+> > {: .output}
+> {: .solution}
+{: .challenge}
+
+
+>## Shrink this dataset: limit to USA publications
+>Filter to USA (6862 items now)
+{: .challenge}
