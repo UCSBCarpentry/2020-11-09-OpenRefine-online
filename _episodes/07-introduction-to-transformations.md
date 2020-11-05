@@ -28,16 +28,32 @@ To support this type of activity OpenRefine supports 'Transformations' which are
 Full documentation for the GREL is available at [https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language). This tutorial covers only a small subset of the commands available.
 
 ### Common transformations
-Some transformations are used regularly and are accessible directly through menu options, without having to type them directly.
+OpenRefine features several functions for performing commonly needed transformations to your data. Many of these transformations are intended for data cleaning purposes and can also be done by using regular expressions. Some transformations are used regularly and are accessible directly through menu options, without having to type them directly. To locate these transformations:
 
-Examples of some of these common transformations are given in the table below, with their 'GREL' equivalents. We'll see how to use the GREL version later in this lesson.
+1) Go to the column you would like to make edits to and click the arrow button on the column header.
+2) Select the “Edit cells” and then “Common transforms” options.
 
-Common Transformation  | Action | GREL expression
---------------------| ------------- | -------------
-To Uppercase| Converts the current value to uppercase | ```value.toUppercase()```
-To Lowercase| Converts the current value to lowercase | ```value.toLowercase()```
-To Titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```
-Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start or end of the current value | ```value.trim()```
+Examples of some of these common transformations are given in the table below:
+
+|Transformation	Function|
+|:----|
+|Trim leading and trailing whitespace	Removes extra spaces before and after the value in each cell in the selected column.|
+|Collapse consecutive whitespace	Removes extra spaces between individual strings within a cell value in the selected column.|
+|Unescape HTML entities	Removes HTML strings indicating particular characters (e.g., “&” vs “&amp;amp;”).|
+|Replace Smart quotes with ascii	Replaces Smart quotes to their ASCII (e.g. ' and ")|
+|To titlecase	Changes the first letter of all words within a cell value to an uppercase letter.|
+|To uppercase	Changes all letters of all words within a cell value to uppercase letters.|
+|To lowercase	Changes all letters of all words within a cell value to lowercase letters.|
+|To number	Changes the cell format to number, for more detail, see Changing the Cell Format.|
+|To date	Changes the cell format to date, for more detail, see Changing the Cell Format.|
+|To text	Changes the cell format to text, for more detail, see Changing the Cell Format.|
+|To null	Changes the cell format to null.|
+|To empty string	Changes the cell format to empty string.|
+
+
+
+
+
 
 >## Correct Publisher data
 >1. Create a text facet on the Publisher column
