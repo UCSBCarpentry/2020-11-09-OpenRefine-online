@@ -24,7 +24,8 @@ Notes:
 
 ### Downloading the data
 
-You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Make a note of the location (i.e. the folder, your desktop) to which you save the file.
+Download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv) and [journalcsv__doaj_20201027_1636_utf8.csv](https://drive.google.com/file/d/1NuD49fcXdzpvLRfDDa23nq6y9lb7t8KY/view?usp=sharing), 
+which are csv files that will open in a new browser tab. Instead of doing that, right-click or control-click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Make a note of the location (i.e. the folder, your desktop) to which you save the file.
 
 ### Getting help
 
