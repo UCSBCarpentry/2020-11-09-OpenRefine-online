@@ -51,6 +51,6 @@ You can sort on multiple columns at the same time by adding another sorted colum
 > > ## Solution
 > >
 > > All the functions you need are in the 'Edit column' menu
-> > [The Edit columns menu](/assets/img/edit_columns.png
+> > [The Edit columns menu](/assets/img/edit_columns.png)
 > {: .solution}
 {: .challenge}
