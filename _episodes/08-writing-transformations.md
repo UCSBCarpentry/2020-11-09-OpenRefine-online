@@ -34,7 +34,7 @@ Next to the 'Preview' option are options to view:
 >## Changing Separators Between Values
 >Let's create a text facet for the "Keywords" column 
 >Use Facets and the GREL expression ```value.replace()``` to replace the commas by semi-colons
->1. Click the dropdown menu on the "Subject" column
+>1. Click the dropdown menu on the "Keywords" column
 >2. Choose ```Edit cells->Transform...```
 >3. In the Expression box type ```value.replace(",",";")```
 >4. In the Preview pane you can see what the effect of running this will be
