@@ -50,7 +50,7 @@ Next to the 'Preview' option are options to view:
 >>>3.1 value.replace('|', ';')
 >>>3.2 value.replace('.', ';')
 >>>3.3 value.replace(':', ';')
->>You can also combine the three separate steps above into one expression. Note that you don't have to type value multiple times:
+>>You can also combine the three separate steps above into one expression. Note that you don't have to type `value` multiple times:
 >>value.replace('|', ';').replace.('.', ';').replace.(':', ';')
 >>4. Apply the common transformation to remove unwanted spaces.
 >>5. Use de function split multi-valued cells using the semi-colons `;` as the separator
