@@ -30,8 +30,8 @@ Full documentation for the GREL is available at [https://github.com/OpenRefine/O
 ### Common transformations
 OpenRefine features several functions for performing commonly needed transformations to your data. Many of these transformations are intended for data cleaning purposes and can also be done by using regular expressions. Some transformations are used regularly and are accessible directly through menu options, without having to type them directly. To locate these transformations:
 
-1) Go to the column you would like to make edits to and click the arrow button on the column header.
-2) Select the “Edit cells” and then “Common transforms” options.
+1. Go to the column you would like to make edits to and click the arrow button on the column header
+2. Select the “Edit cells” and then “Common transforms” options
 
 Examples of some of these common transformations are given in the table below:
 
@@ -51,11 +51,13 @@ Examples of some of these common transformations are given in the table below:
 | To empty string 	| Changes the cell format to empty string. 	|
 
 
->## Correct Publisher data
->1. Create a text facet on the Publisher column (Dataset 1)
->2. Note that in the values there are two that look identical - why does this value appear twice?
->3. On the publisher column use the dropdown menu to select ```Edit cells->Common transforms->Trim leading and trailing whitespace```
->4. Look at the publisher facet now - has it changed? (if it hasn't changed try clicking the ```Refresh``` option to make sure it updates)
+>## Removing Unecessary Spaces without inspecting all facet choices
+>1. Create a text facet on the "Society or Institution" Column
+>2. Note that you have over 300 choices listed and would take too much time to inspect each of them
+>3. On the column use the dropdown menu to select ```Edit cells->Common transforms->Trim leading and trailing whitespace```
+>4. Note the message that appears on the top and the expression
+>5. Then, ```Edit cells->Common transforms->Collapse consecutive whitespace```. Pay attention at the message again.
+>6. Look at the  facet now - has it changed at all or the number remains the same? Why?
 {: .checklist}
 
 
