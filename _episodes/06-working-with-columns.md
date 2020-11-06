@@ -31,3 +31,24 @@ Once you have sorted the data, a new `Sort` drop-down menu will be displayed.
 Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent.
 
 You can sort on multiple columns at the same time by adding another sorted column (in the same way).
+
+> ## Organizing for more cleanup
+>
+> Let's get rid of a column we don't need 'Archiving information URL'), push the 
+> remaining two URL columns to the right, and re-arrange some other columns. 
+> This will help us work a little
+> faster tomorrow. Aim for this order:
+> * Journal title
+> * Alternative title
+> * Keywords
+> * Subjects
+> * Added on Date
+> * Most Recent Article Added
+>
+> > ## Solution
+> >
+> > All the functions you need are in the 'Edit column' menu
+> > [The Edit columns menu](/assets/img/edit_columns.png
+> > {: .output}
+> {: .solution}
+{: .challenge}
