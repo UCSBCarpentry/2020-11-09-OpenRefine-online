@@ -41,7 +41,7 @@ Next to the 'Preview' option are options to view:
 >5. Click ```OK```
 {: .checklist}
 
-># Exercise
+>## Challenge
 >What is the most frequent individual `Subject` among the journals listed in the dataset?
 >Use `facetting`, perform `transformation` and `common transformation`, as well as the `splitting` function to come up with a solution. Tip: we do not want to differentiate subject levels.
 >>## Solution
