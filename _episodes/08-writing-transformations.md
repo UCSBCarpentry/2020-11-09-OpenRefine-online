@@ -31,15 +31,12 @@ Next to the 'Preview' option are options to view:
 * 'Starred' - a list of transformations you've 'starred' via the 'History' view
 * 'Help' - a list of all the GREL functions and brief information on how to use them
 
->## Put titles into Title Case
->Use Facets and the GREL expression ```value.toTitlecase()``` to put the titles in Title Case
->1. Facet by publisher
->2. Select "Akshantala Enterprises" and "Society of Pharmaceutical Technocrats"
->3. To select multiple values in the facet use the ```include``` link that appears to the right of the facet
->4. See that the Titles for these are all in uppercase
->5.  Click the dropdown menu on the Title column
->6. Choose ```Edit cells->Transform...```
->7. In the Expression box type ```value.toTitlecase()```
->8. In the Preview pane under value.toTitlecase() you can see what the effect of running this will be
->9. Click ```OK```
+>## Changing Separators Between Values
+>Let's create a text facet for the "Keywords" column 
+>Use Facets and the GREL expression ```value.replace()``` to replace the commas by semi-colons
+>1. Click the dropdown menu on the "Subject" column
+>2. Choose ```Edit cells->Transform...```
+>3. In the Expression box type ```value.replace(',',';')```
+>4. In the Preview pane you can see what the effect of running this will be
+>5. Click ```OK```
 {: .checklist}
