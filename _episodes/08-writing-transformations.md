@@ -32,9 +32,9 @@ Next to the 'Preview' option are options to view:
 * 'Help' - a list of all the GREL functions and brief information on how to use them
 
 >## Changing Separators Between Values
->Let's create a text facet for the "Keywords" column 
+>Let's create a text facet for the 'Keywords' column 
 >Use Facets and the GREL expression ```value.replace()``` to replace the commas by semi-colons
->1. Click the dropdown menu on the "Keywords" column
+>1. Click the dropdown menu on the 'Keywords' column
 >2. Choose ```Edit cells->Transform...```
 >3. In the Expression box type ```value.replace(",",";")```
 >4. In the Preview pane you can see what the effect of running this will be
@@ -47,7 +47,7 @@ Next to the 'Preview' option are options to view:
 >>## Solution
 >>1. Create a text facet for the 'Subject' column
 >>2. Notice that top-level subjects are separated by vertical bars `|` and same level by periods `.`, and colons `:` for sub-topics
->>3. We will need to perform transformations to remove these different separators. We will separate all of them by semi-colons `;`
+>>3. We'll need to perform transformations to remove these different separators. We'll separate all of them by semi-colons `;`
 3.1 value.replace("|", ";")
 3.2 value.replace(".", ";")
 3.3 value.replace(":", ";")
