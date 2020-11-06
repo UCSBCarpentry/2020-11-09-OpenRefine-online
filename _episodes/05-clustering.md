@@ -58,18 +58,28 @@ For each cluster, you have the option of 'merging' the values together - that is
 > > After accepting the Cluster recommendations, there should now be 6,853 distinct publishers.
 > > ### Combine persistant identifiers
 > > 
-> > Slide over to 'Permanent article identifiers' column, and create a text facet.  If you scroll
+> > Slide over to 'Permanent article identifiers' column, and create a text facet.  
+> > 
+> > You could try to Cluster these, but they are too self-similar. You will need to edit the values.
+> > If you scroll
 > > through the 35 choices, you should see at least 3 that you can safely combine. Update those 
-> > by editing one of the facets to match another. (DOI, PMCID, PMID; the two UDC's;). You can easily 
-> > get down to 32 choices.
-> > ~~~
-> > it may also include some code
-> > ~~~
-> > {: .output}
+> > by editing one of the facets to match another. (DOI, PMCID, PMID; the two UDC's;). You should 
+> > get down to 32 choices at the most.  You could go lower if you have the domain knowledge necessary 
+> > to combine more of the values.
+> >
 > {: .solution}
 {: .challenge}
 
 
->## Shrink this dataset: limit to USA publications
->Filter to USA (6862 items now)
+>## Shrink this dataset
+> 15,403 records is a pretty good number to work with, but let's 
+> simplify our work and filter this dataset down to just journals
+> published in the United States.
+>
+> How many are left?
+>
+> > ## Solution
+> >
+> > After adding a text facet and including only US journals, we have 838 records.
+> {: .solution}
 {: .challenge}
