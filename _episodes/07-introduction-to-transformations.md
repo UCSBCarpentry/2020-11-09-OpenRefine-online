@@ -56,8 +56,8 @@ Examples of some of these common transformations are given in the table below:
 >2. Note that you have over 300 choices listed and would take too much time to inspect each of them
 >3. On the column use the dropdown menu to select ```Edit cells->Common transforms->Trim leading and trailing whitespace```
 >4. Note the message that appears on the top and the expression
->5. Then, ```Edit cells->Common transforms->Collapse consecutive whitespace```. Pay attention at the message again.
->6. Look at the  facet now - has it changed at all or the number remains the same? Why?
+>5. Then, ```Edit cells->Common transforms->Collapse consecutive whitespace```. Pay attention to the message again.
+>6. Look at the facet now - has it changed at all or the number remains the same? Do you know why?
 {: .checklist}
 
 
