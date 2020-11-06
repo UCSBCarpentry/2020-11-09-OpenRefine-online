@@ -70,6 +70,6 @@ Examples of some of these common transformations are given in the table below:
 >## Challenge
 >Now, try the same process with the `Most Recent Article` column. What is the peak timeline for this variable? How many cases fall under this peak?
 >>## Solution 
->>``The peak time was in between October 28, 2019 and October 27, 2020`` and ``291 cases according to row numbers``
+>>``The peak time was in between October 28, 2018 and October 27, 2019`` and ``291 cases according to row numbers``
 >{: .solution}
 {: .challenge}
