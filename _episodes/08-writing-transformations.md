@@ -59,7 +59,6 @@ Next to the 'Preview' option are options to view:
 >{: .solution}
 {: .challenge}
 
-
 ## Filling Out Blank Cells
 Another useful GREL expression is the conditional function `if`. Let's say you want to fill out all blanks from the `Digital Archiving` column with N/A (non-applicable). In that case, you will can type the following expression in the transformation pane:
 if(isBlank(value.trim()), "N/A", value).
@@ -70,5 +69,3 @@ if(isBlank(value.trim()), "N/A", value).
 >>`Perform Text Facet > Edit Blanks`
 >{: .solution}
 {: .challenge}
-
-
