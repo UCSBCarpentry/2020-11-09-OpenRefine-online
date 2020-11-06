@@ -42,6 +42,7 @@ For each cluster, you have the option of 'merging' the values together - that is
 > There are several publishers that appear to be the same organization. Combine them.
 > > How many publishers did you start with? How many are left after cleaning?
 > You can also eliminate redundant values in the 'Permanent article identifiers' column.
+> How few of these values can you get to?
 >
 > > ## Solution
 > >
@@ -49,9 +50,18 @@ For each cluster, you have the option of 'merging' the values together - that is
 > > When you start, you should see 6,983 distinct publishers.
 > > Click the 'Cluster' button, and you will see several publishers that appear to be
 > > duplicates.  Let's paint with a broad brush, and assume that we can lump in the
-> > Ljubljana filozoske fakulty with the arts faculty. We will accept all of OpenRefine's
+> > Ljubljana filozoske fakulty with their arts faculty. We will accept all of OpenRefine's
 > > other suggestions.
 > >
+> > If there were fuzzier matches, you could adjust the sliders on each cluster to exclude outlyers.
+> > 
+> > After accepting the Cluster recommendations, there should now be 6,853 distinct publishers.
+> > ### Combine persistant identifiers
+> > 
+> > Slide over to 'Permanent article identifiers' column, and create a text facet.  If you scroll
+> > through the 35 choices, you should see at least 3 that you can safely combine. Update those 
+> > by editing one of the facets to match another. (DOI, PMCID, PMID; the two UDC's;). You can easily 
+> > get down to 32 choices.
 > > ~~~
 > > it may also include some code
 > > ~~~
