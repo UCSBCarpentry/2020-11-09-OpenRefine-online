@@ -40,8 +40,8 @@ For each cluster, you have the option of 'merging' the values together - that is
 >
 > Let's clean up our new, larger DOAJ file.
 > There are several publishers that appear to be the same organization. Combine them.
-> > How many publishers did you start with? How many are left after cleaning?
-> You can also eliminate redundant values in the 'Permanent article identifiers' column.
+> * How many publishers did you start with? How many are left after cleaning?
+> * You can also eliminate redundant values in the 'Permanent article identifiers' column.
 > How few of these values can you get to?
 >
 > > ## Solution
@@ -56,6 +56,7 @@ For each cluster, you have the option of 'merging' the values together - that is
 > > If there were fuzzier matches, you could adjust the sliders on each cluster to exclude outlyers.
 > > 
 > > After accepting the Cluster recommendations, there should now be 6,853 distinct publishers.
+> >
 > > ### Combine persistant identifiers
 > > 
 > > Slide over to 'Permanent article identifiers' column, and create a text facet.  
