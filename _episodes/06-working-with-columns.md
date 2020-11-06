@@ -34,10 +34,13 @@ You can sort on multiple columns at the same time by adding another sorted colum
 
 > ## Organizing for more cleanup
 >
-> Let's get rid of a column we don't need 'Archiving information URL'), push the 
+> Let's get rid of a column we don't need ('Archiving information URL'), push the 
 > remaining two URL columns to the right, and re-arrange some other columns. 
 > This will help us work a little
-> faster tomorrow. Aim for this order:
+> faster tomorrow. 
+>
+> Aim for this order:
+>
 > * Journal title
 > * Alternative title
 > * Keywords
@@ -49,6 +52,5 @@ You can sort on multiple columns at the same time by adding another sorted colum
 > >
 > > All the functions you need are in the 'Edit column' menu
 > > [The Edit columns menu](/assets/img/edit_columns.png
-> > {: .output}
 > {: .solution}
 {: .challenge}
