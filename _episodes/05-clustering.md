@@ -46,7 +46,11 @@ For each cluster, you have the option of 'merging' the values together - that is
 > > ## Solution
 > >
 > > ### Combine publishers.
-> > When you start, you should see 
+> > When you start, you should see 6,983 distinct publishers.
+> > Click the 'Cluster' button, and you will see several publishers that appear to be
+> > duplicates.  Let's paint with a broad brush, and assume that we can lump in the
+> > Ljubljana filozoske fakulty with the arts faculty. We will accept all of OpenRefine's
+> > other suggestions.
 > >
 > > ~~~
 > > it may also include some code
