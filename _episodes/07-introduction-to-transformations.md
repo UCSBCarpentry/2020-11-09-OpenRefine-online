@@ -56,7 +56,7 @@ Examples of some of these common transformations are given in the table below:
 >2. Note that you have over 300 choices listed and would take too much time to inspect each of them
 >3. On the column use the dropdown menu to select ```Edit cells->Common transforms->Trim leading and trailing whitespace```
 >4. Note the message that appears on the top and the expression
->5. Then, ```Edit cells->Common transforms->Collapse consecutive whitespace```. Pay attention to the message again.
+>5. Then, ```Edit cells>Common transforms>Collapse consecutive whitespace```. Pay attention to the message again.
 >6. Look at the facet now - has it changed at all or the number remains the same? Do you know why?
 {: .checklist}
 
@@ -66,3 +66,10 @@ Examples of some of these common transformations are given in the table below:
 >2. Now, perform a `Timeline Facet`
 >3. Can you spot which period there was a peak of journals added to DOAJ?
 {: .checklist}
+
+>## Challenge
+>Now, try the same process with the `Most Recent Article` column. What is the peak timeline for this variable? How many cases fall under this peak?
+>>## Solution 
+>>``2019-10-28 03:30:34 — 2020-10-27 09:19:46`` and ``291``
+>{: .solution}
+{: .challenge}
