@@ -41,7 +41,7 @@ Next to the 'Preview' option are options to view:
 >5. Click ```OK```
 {: .checklist}
 
->#Exercise
+># Exercise
 >What is the most frequent individual `Subject` among the journals listed in the dataset?
 >Use `facetting`, perform `transformation` and `common transformation`, as well as the `splitting` function to come up with a solution. Tip: we do not want to differentiate subject levels.
 >>## Solution
@@ -59,10 +59,10 @@ Next to the 'Preview' option are options to view:
 >{: .solution}
 {: .challenge}
 
->##Filling Out Blank Cells
+>## Filling Out Blank Cells
 >Another useful GREL expression is the conditional function `if`. Let's say you want to fill out all blanks from the `Digital Archiving` column with N/A (non-applicable). In that case, you will can type the following expression in the transformation pane:
 >if(isBlank(value.trim()), "N/A", value).
 >## Now, try it yourself with the `APC amount` column. What would be an alternative path to perform the same transformation?
->>##Solution: **Perform Text Facet > Edit Blanks**  
+>>## Solution: **Perform Text Facet > Edit Blanks**  
 
 
