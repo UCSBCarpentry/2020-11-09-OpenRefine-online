@@ -48,10 +48,10 @@ Next to the 'Preview' option are options to view:
 >>1. Create a text facet for the 'Subject' column
 >>2. Notice that top-level subjects are separated by vertical bars `|` and same level by periods `.`, and colons `:` for sub-topics
 >>3. We will need to perform transformations to remove these different separators. We will separate all of them by semi-colons `;`
->>3.1 value.replace("|", ";")
->>3.2 value.replace(".", ";")
->>3.3 value.replace(":", ";")
->>You can also combine the three separate steps above into one expression. Note that you don't have to type `value` multiple times: value.replace("|", ";").replace(".", ";").replace(":", ";")
+3.1 value.replace("|", ";")
+3.2 value.replace(".", ";")
+3.3 value.replace(":", ";")
+>>You can also combine the three separate steps above into one expression. Note that you don't have to type `value` multiple times: `value.replace("|", ";").replace(".", ";").replace(":", ";")`
 >>4. Apply the common transformation to remove unwanted spaces.
 >>5. Use de function split multi-valued cells using the semi-colons `;` as the separator
 >>6. Sort the facet by `count`
@@ -59,10 +59,10 @@ Next to the 'Preview' option are options to view:
 >{: .solution}
 {: .challenge}
 
->## Filling Out Blank Cells
+## Filling Out Blank Cells
 >Another useful GREL expression is the conditional function `if`. Let's say you want to fill out all blanks from the `Digital Archiving` column with N/A (non-applicable). In that case, you will can type the following expression in the transformation pane:
 >if(isBlank(value.trim()), "N/A", value).
 >## Now, try it yourself with the `APC amount` column. What would be an alternative path to perform the same transformation?
->>## Solution: **Perform Text Facet > Edit Blanks**  
+>>## Solution: `Perform Text Facet > Edit Blanks`  
 
 
