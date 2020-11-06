@@ -51,7 +51,7 @@ Examples of some of these common transformations are given in the table below:
 | To empty string 	| Changes the cell format to empty string. 	|
 
 
->## Removing Unnecessary Spaces without inspecting all facet choices
+>## Removing Unnecessary Spaces Without Inspecting All Facet Choices
 >1. Create a text facet on the "Society or Institution" Column
 >2. Note that you have over 300 choices listed and would take too much time to inspect each of them
 >3. On the column use the dropdown menu to select ```Edit cells->Common transforms->Trim leading and trailing whitespace```
