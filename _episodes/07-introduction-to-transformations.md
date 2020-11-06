@@ -61,7 +61,7 @@ Examples of some of these common transformations are given in the table below:
 {: .checklist}
 
 >## Transforming Text Facet into Dates
->By default, in `OpenRefine` all columns are identified as text. So if you want to create a date facetr you will have to first transform those values into 'dates'. 
+>By default, in `OpenRefine` all columns are identified as text. So if you want to create a date facet you will have to first transform those values into 'dates'. 
 >1. Click on the column `Added on Date` dropdown menu, then `Edit Cells>Common Transforms>To Date`
 >2. Now, perform a `Timeline Facet`
 >3. Can you spot which period there was a peak of journals added to DOAJ?
