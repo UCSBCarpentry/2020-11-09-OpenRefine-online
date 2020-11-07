@@ -43,7 +43,7 @@ Next to the 'Preview' option are options to view:
 
 >## Challenge
 >What is the most frequent individual `Subject` among the journals listed in the dataset?
->Use `facetting`, perform `transformation` and `common transformation`, as well as the `splitting` function to come up with a solution. Tip: we do not want to differentiate subject levels.
+>Use `facetting`, perform `transformation` and `common transformation`, as well as the `splitting` function to come up with a solution. Tip: we do not want to differentiate subject levels. Take a close look at the different separators present in this column and think about how you can remove them.
 >>## Solution
 >>1. Create a text facet for the 'Subject' column
 >>2. Notice that top-level subjects are separated by vertical bars `|` and same level by periods `.`, and colons `:` for sub-topics
@@ -52,7 +52,7 @@ Next to the 'Preview' option are options to view:
 3.2 value.replace(".", ";")
 3.3 value.replace(":", ";")
 >>You can also combine the three separate steps above into one expression. Note that you don't have to type `value` multiple times: `value.replace("|", ";").replace(".", ";").replace(":", ";")`
->>4. Apply the common transformation to remove unwanted spaces so you won't have similar values unclustered. Alternatively, you can also use the expression `value.replace(" ", "")` as a separate step or combined with the above.
+>>4. Apply the common transformation to remove unwanted spaces so you won't have similar values unclustered. Alternatively, you can also use the expression `value.replace(" ", "")` as a separate step or combined with the one above.
 >>5. Use de function split multi-valued cells using the semi-colons `;` as the separator
 >>6. Sort the facet by `count`
 >>7. Which subject has more counts? Answer: **Medicine - 243**
