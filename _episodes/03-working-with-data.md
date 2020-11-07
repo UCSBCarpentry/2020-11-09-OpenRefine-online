@@ -146,10 +146,12 @@ to get comfortable using larger datasets so that you learn to trust your tools a
 your ability to evaluate a dataset. This exercise will give us a second, more
 realistic project to work with.
 
-* Download 
-[this dataset](https://drive.google.com/file/d/1NuD49fcXdzpvLRfDDa23nq6y9lb7t8KY/view?usp=sharing), 
+
+
+* If you have not already, download the
+[DOAJ_big.csv]this dataset(https://drive.google.com/file/d/13gOr7cP9ZzYL4DCTI012ToG9AcEzFm4r/view?usp=sharing), 
 and put the .csv file alongside your other data file.
-* Return to the 'Create Project' menu.
-* 'Choose Files' and navigate to the journalcsv__doaj_20201027_1636_utf8.csv file.
+* Return to the 'Create Project' menu (click the Diamond).
+* 'Choose Files' and navigate to the DOAJ_big.csv file.
 * Use the default options to create a new project.
-* Rename this new project 'Large DOAJ dump.'
+
