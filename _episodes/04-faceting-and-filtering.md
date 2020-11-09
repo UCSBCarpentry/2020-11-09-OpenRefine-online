@@ -126,13 +126,12 @@ The list of values in the facet will update as you make edits.
 >* How many columns are in the dataset?
 >* Does your computer display non-Latin character sets? (hint: sort by title)
 >* What is the most common amount for an Author Publishing Charge?
->* Where does 'most recent article' time come from? a robot?"
 >
 >>## Solution
 >> 1. Open your 'Large DOAJ dump' project
 >> 2. The number of records is displayed prominently on the project's main screen
 >>  ![Number of records](../assets/img/num-records.png)
->> 3. **I actually don't know how to figure out how many columns**
+>> 3. This is actually a bit of a trick question. Move a column to the end to get a count of columns.
 >> 4. If you sort your records by title, then go to the LAST page of records, you will either see non-Latin characters or some random nonsense.
 >> 5. Create a text facet, then sort by count. The most common APC amount is 1000. But 1000 what?
 >{: .solution}
