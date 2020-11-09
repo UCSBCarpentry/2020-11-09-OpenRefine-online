@@ -148,8 +148,8 @@ realistic project to work with.
 
 
 
-* If you have not already, download the
-[DOAJ_big.csv]this dataset(https://drive.google.com/file/d/13gOr7cP9ZzYL4DCTI012ToG9AcEzFm4r/view?usp=sharing), 
+* If you have not already, download
+[this datasetad `DOAJ_big.csv`](https://drive.google.com/file/d/13gOr7cP9ZzYL4DCTI012ToG9AcEzFm4r/view?usp=sharing), 
 and put the .csv file alongside your other data file.
 * Return to the 'Create Project' menu (click the Diamond).
 * 'Choose Files' and navigate to the DOAJ_big.csv file.
