@@ -55,7 +55,7 @@ Next to the 'Preview' option are options to view:
 >>4. Apply the common transformation to remove unwanted spaces so you won't have similar values unclustered. Alternatively, you can also use the expression `value.replace(" ", "")` as a separate step or combined with the one above.
 >>5. Use de function split multi-valued cells using the semi-colons `;` as the separator
 >>6. Sort the facet by `count`
->>7. Which subject has more counts? Answer: **Medicine - 243**
+>>7. Which subject has more counts? Answer: **Medicine**
 >{: .solution}
 {: .challenge}
 
